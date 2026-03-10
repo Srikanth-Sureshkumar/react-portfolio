@@ -31,8 +31,8 @@ const Projects = () => {
         { label: "MongoDB", accent: false },
         { label: "JWT", accent: false },
       ],
-      live: "https://classicfeast-restaurant.vercel.app/",
-      source: "https://github.com/Srikanth-Sureshkumar/classicfeast_restaurant.git",
+      live: "/to-do-dashboard",
+      source: "https://github.com/Srikanth-Sureshkumar/to-do-dashboard.git",
     },
     {
       number: "03 — 2026",
@@ -46,8 +46,8 @@ const Projects = () => {
         { label: "JavaScript", accent: false },
         { label: "CSS", accent: false },
       ],
-      live: "https://classicfeast-restaurant.vercel.app/",
-      source: "https://github.com/Srikanth-Sureshkumar/classicfeast_restaurant.git",
+      live: "https://srikanth-portfolio-delta.vercel.app/",
+      source: "https://github.com/Srikanth-Sureshkumar/react-portfolio.git",
     },
   ];
 
