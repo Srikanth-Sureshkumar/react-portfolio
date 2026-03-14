@@ -8,48 +8,39 @@ import EXPRESS from "../assets/images/express-js.svg";
 import MONGODB from "../assets/images/mongodb-icon.png";
 import POSTMAN from "../assets/images/postman-icon.png";
 import MONGOOSE from "../assets/images/Mongoose.js.png";
-import GIT from "../assets/images/Git-logo.png";
+import TAILWIND from "../assets/images/tailwind-css.png";
 import GITHUB from "../assets/images/github-white-icon.png";
 
 
 const About = () => {
+  
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" data-aos="fade-right"> 
       <div>
         <div className="section-label">About me</div>
-        <h2>Full-stack engineer, problem solver.</h2>
+        <h2>Who I am</h2>
 
-        <p>
-          I'm Srikanth Sureshkumar — a MERN Stack Developer with practical
-          experience designing and deploying full-stack web applications
-          using MongoDB, Express.js, React.js, and Node.js. Adept at building
-          RESTful APIs, crafting responsive user interfaces, and managing
-          codebases with Git in collaborative Agile environments.
-        </p>
+        <p>Hi, I'm Srikanth Sureshkumar, a MERN Stack Developer passionate about building scalable and user-friendly web applications.</p>
 
-        <p>
-          Demonstrated ability to deliver end-to-end features — from database
-          schema design to front-end integration — with a focus on clean,
-          maintainable code. Passionate about solving real-world problems
-          through technology and committed to continuous growth in modern
-          web development practices.
-        </p>
+        <p>I specialize in developing full-stack solutions using MongoDB, Express.js, React, and Node.js, and I enjoy creating clean interfaces and efficient backend systems.</p>
+
 
         <br />
 
         <div style={{ display: "flex", gap: "16px"}}>
-          <a href="#contact" className="btn btn-primary" style={{fontSize: "14px"}}>
-            Hire me
-          </a>
           <a 
             href="Srikanth_Sureshkumar_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-ghost"
+            className="btn btn-primary"
             style={{ fontSize: "14px" }}
           >
             <i class="fa-solid fa-download"></i> Resume
           </a>
+          <a href="#contact" className="btn btn-ghost" style={{fontSize: "14px"}}>
+            Hire me
+          </a>
+          
         </div>
       </div>
 
@@ -67,6 +58,13 @@ const About = () => {
             <img src={CSS} alt="css-icon"/>
           </span>
           <span className="skill-name">CSS</span>
+        </div>
+
+        <div className="skill-item">
+          <span className="skill-icon">
+            <img src={TAILWIND} alt="tailwind-css-icon"/>
+          </span>
+          <span className="skill-name">Tailwind CSS</span>
         </div>
 
         <div className="skill-item">
@@ -124,14 +122,6 @@ const About = () => {
           </span>
           <span className="skill-name">Postman</span>
         </div>
-
-        <div className="skill-item">
-          <span className="skill-icon">
-            <img src={GIT} alt="git-icon"/>
-          </span>
-          <span className="skill-name">Git</span>
-        </div>
-
 
         <div className="skill-item">
           <span className="skill-icon">

@@ -2,6 +2,7 @@ const Ticker = () => {
   const stackItems = [
     "HTML",
     "CSS",
+    "Tailwind CSS",
     "Bootstrap",
     "JavaScript",
     "React.js",

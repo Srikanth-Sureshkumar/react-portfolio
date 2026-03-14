@@ -1,6 +1,7 @@
 const Contact = () => {
+
   return (
-    <section className="contact" id="contact">
+    <section className="contact" id="contact" data-aos="fade-up">
       <div className="contact-glow"></div>
 
       <div
@@ -30,32 +31,39 @@ const Contact = () => {
       </p>
 
       <div className="contact-links">
+
+        {/* Email */}
         <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=skanth.suresh@gmail.com"
-            className="contact-link" 
-            target="_blank"
-            rel="noopener noreferrer"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=skanth.suresh@gmail.com"
+          className="contact-card"
+          target="_blank"
         >
-          <i class="fa-solid fa-envelope"></i> Email Me
+          <i className="fa-solid fa-envelope"></i>
+          <span>Email Me</span>
         </a>
 
+        {/* GitHub */}
         <a
           href="https://github.com/Srikanth-Sureshkumar"
-          className="contact-link"
+          className="contact-card"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-github"></i> GitHub
+          <i className="fa-brands fa-github"></i>
+          <span>GitHub</span>
         </a>
 
+        {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/srikanth-sureshkumar/"
-          className="contact-link"
+          className="contact-card"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-linkedin"></i> LinkedIn
+          <i className="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
         </a>
+
       </div>
     </section>
   );
